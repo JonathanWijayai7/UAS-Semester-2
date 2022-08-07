@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous" />
+
+    <title>UAS Program Penjualan Barang</title>
+  </head>
+  <body>
+    <nav class="navbar-dark bg-dark sticky-top">
+      <div class="container-fluid" align="center">
+        <a class="navbar-brand" href="Penjualan Barang.html"><h1>Program Penjualan Barang</h1></a>
+      </div>
+    </nav>
+    <div class="p-3 mb-2 bg-info text-dark" .bg-info align="center">
+      <hr />
+      <table>
+        <tr>
+          <td><label>Nama Barang :</label></td>
+          <td><input type="text" id="barang" /><br /></td>
+        </tr>
+        <tr>
+          <td><label>Harga :</label></td>
+          <td><input type="text" id="harga" /><br /></td>
+        </tr>
+        <tr>
+          <td><label>Jumlah :</label></td>
+          <td><input type="text" id="jumlah" /><br /></td>
+        </tr>
+        <tr>
+          <td><label>Total :</label></td>
+          <td><textarea id="total"></textarea><br /></td>
+        </tr>
+        <tr>
+          <td><label>Diskon :</label></td>
+          <td><textarea id="dis"></textarea><br /></td>
+        </tr>
+        <tr>
+          <td><label>Bayar :</label></td>
+          <td><textarea id="bayar"></textarea><br /></td>
+        </tr>
+      </table>
+      <hr />
+      <br />
+
+      <button onclick="hasil()">Proses</button>
+      <button onclick="hapus()">Reset</button>
+
+      <script type="text/javascript" src="penjualan.js"></script>
+      <hr />
+      <h5>Made by @Jonawawiwawi</h5>
+    </div>
+  </body>
+</html>
